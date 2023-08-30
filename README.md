@@ -73,7 +73,7 @@ I also learned about the pseudo-element `::placeholder`.
 }
 ```
 
-With this challenge I've been able to practice regular expressions and broke down the expression into smaller parts below for easier understanding. I've followed the common rules for valid email addresses:
+In this challenge, I had the opportunity to practice working with regular expressions and successfully deconstructed the expression into smaller components for improved understanding. My approach follows the widely accepted rules for validating email addresses.
 
 **Local Part:** This is the first part of the email before the '@' symbol. It can have letters, numbers, and a few special characters like '-', '\_', and '.'. But it can't start or end with these special characters, and they can't appear together.
 
@@ -86,20 +86,20 @@ let mailRegex =
   /^[a-zA-Z0-9]([-_]?[a-zA-Z0-9]+)*(\.[a-zA-Z0-9]([-_]?[a-zA-Z0-9]+)*)*@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/;
 ```
 
+```javascript
 /^
 [a-zA-Z0-9] // Start with a letter or digit (local part should begin with at least one character)
 (
 [-_]? // Optional hyphen or underscore
 [a-zA-Z0-9]+ // At least one letter or digit (subsequent characters in local part)
-)\* // End of optional group (can repeat zero or more times)
+)* // End of optional group (can repeat zero or more times)
 
 (\. // Mandatory dot for domain (domain must start with a dot)
 [a-zA-Z0-9] // Domain should start with a letter or digit
 (
 [-_]? // Optional hyphen or underscore
 [a-zA-Z0-9]+ // At least one letter or digit (subsequent characters in domain)
-)_
-)_ // End of optional group (can repeat zero or more times)
+)* // End of optional group (can repeat zero or more times)
 
 @ // Mandatory "@" symbol
 
@@ -108,6 +108,7 @@ let mailRegex =
 [a-zA-Z0-9]+ // Domain should end with at least one letter or digit
 
 $/; // End of the string
+```
 
 ### Useful resources
 
