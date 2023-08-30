@@ -87,8 +87,7 @@ let mailRegex =
 ```
 
 ```js
-/^
-[a-zA-Z0-9] // Start with a letter or digit (local part should begin with at least one character)
+/^[a-zA-Z0-9] // Start with a letter or digit (local part should begin with at least one character)
 (
 [-_]? // Optional hyphen or underscore
 [a-zA-Z0-9]+ // At least one letter or digit (subsequent characters in local part)
@@ -114,11 +113,11 @@ $/; // End of the string
 
 - [input type="email"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - Morzilla developers page on the input type email
 - [input type="image"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image) - Morzilla developers page on the input type image
-- [Email validation Using Javascript | With Source Code](https://www.youtube.com/watch?v=1tnINeBLNj4) - This video helped me get an idea on what i should do for email validation. i learnt about the oninput attribute and helped me get started on the regular expression
-- [How To Make Email Validation Using JavaScript | Valid & Invalid Email Check In JavaScript](https://www.youtube.com/watch?v=ndNPg8-5jgI) - Another video which can be used to get an idea of how to do email validation. Here he uses onkeyup attribute.
+- [Email validation Using Javascript | With Source Code](https://www.youtube.com/watch?v=1tnINeBLNj4) - A youtube video on how to do email validation in Javascript.
+- [How To Make Email Validation Using JavaScript | Valid & Invalid Email Check In JavaScript](https://www.youtube.com/watch?v=ndNPg8-5jgI) - Another youtube video on how to do email validation in Javascript.
 - [What are the rules for email address syntax?](https://knowledge.validity.com/hc/en-us/articles/220560587-What-are-the-rules-for-email-address-syntax-#:~:text=A%20valid%20email%20address%20has%20four%20parts%3A%201,%40%20symbol%203%20Domain%20name%204%20Top-level%20domain) - This article gives information on what makes a valid email address. I simplified the rules for this challenge.
 - [Regular expression syntax cheat sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet) - Reference this page for regular expressions.
-- [What characters need to be escaped?](https://riptutorial.com/regex/example/15848/what-characters-need-to-be-escaped-) - Another refernce for special characters that need to be escaped.
+- [What characters need to be escaped?](https://riptutorial.com/regex/example/15848/what-characters-need-to-be-escaped-) - Another reference for special characters that need to be escaped.
 - [Lookahead assertion: (?=...), (?!...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Lookahead_assertion) - Talks about lookahead assertion
 - [Lookahead and Lookbehind Zero-Length Assertions](https://www.regular-expressions.info/lookaround.html) - Another article that talks about lookahead assertion
 
