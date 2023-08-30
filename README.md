@@ -64,7 +64,7 @@ Furthermore, I explored the `oninput` attribute, which triggers a JavaScript fun
 <input type="image" src="images/icon-arrow.svg" alt="submit" id="submit" />
 ```
 
-I also learned about the pseudo-element ::placeholder.
+I also learned about the pseudo-element `::placeholder`.
 
 ```css
 #email::placeholder {
@@ -111,8 +111,8 @@ $/; // End of the string
 
 ### Useful resources
 
-- [<input type="email">](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - Morzilla developers page on the input type email
-- [<input type="image">](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image) - Morzilla developers page on the input type image
+- [input type="email"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - Morzilla developers page on the input type email
+- [input type="image"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image) - Morzilla developers page on the input type image
 - [Email validation Using Javascript | With Source Code](https://www.youtube.com/watch?v=1tnINeBLNj4) - This video helped me get an idea on what i should do for email validation. i learnt about the oninput attribute and helped me get started on the regular expression
 - [How To Make Email Validation Using JavaScript | Valid & Invalid Email Check In JavaScript](https://www.youtube.com/watch?v=ndNPg8-5jgI) - Another video which can be used to get an idea of how to do email validation. Here he uses onkeyup attribute.
 - [What are the rules for email address syntax?](https://knowledge.validity.com/hc/en-us/articles/220560587-What-are-the-rules-for-email-address-syntax-#:~:text=A%20valid%20email%20address%20has%20four%20parts%3A%201,%40%20symbol%203%20Domain%20name%204%20Top-level%20domain) - This article gives information on what makes a valid email address. I simplified the rules for this challenge.
