@@ -16,7 +16,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ## Overview
 
-Build a Base Appareal coming soon page which takes in email and validates as user types in email.
+Build a Base Appareal coming soon page which takes in email and validates as user types.
 
 ### The challenge
 
