@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Website](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/jrc17/base-apparel-coming-soon-master-main)
+- Live Site URL: [Website](https://jrc17.github.io/base-apparel-coming-soon-master-main/)
 
 ## My process
 
@@ -86,7 +86,7 @@ let mailRegex =
   /^[a-zA-Z0-9]([-_]?[a-zA-Z0-9]+)*(\.[a-zA-Z0-9]([-_]?[a-zA-Z0-9]+)*)*@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/;
 ```
 
-```javascript
+```js
 /^
 [a-zA-Z0-9] // Start with a letter or digit (local part should begin with at least one character)
 (
